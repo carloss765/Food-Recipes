@@ -1,0 +1,74 @@
+/* Estilos para el contenedor principal */
+.recipe-list-container {
+    padding: 1rem; /* p-4 */
+}
+
+/* Estilos para el título de la lista de recetas */
+.recipe-list-title {
+    font-size: 1.875rem; /* text-3xl */
+    font-weight: 700; /* font-bold */
+    margin-bottom: 1rem; /* mb-4 */
+}
+
+/* Estilos para la cuadrícula de recetas */
+.recipe-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* grid-cols-1 */
+    gap: 1rem; /* gap-4 */
+}
+
+@media (min-width: 768px) {
+    .recipe-grid {
+        grid-template-columns: repeat(2, 1fr); /* md:grid-cols-2 */
+    }
+}
+
+@media (min-width: 1024px) {
+    .recipe-grid {
+        grid-template-columns: repeat(3, 1fr); /* lg:grid-cols-3 */
+    }
+}
+
+/* Estilos para cada tarjeta de receta */
+.recipe-card {
+    border: 1px solid #e5e7eb; /* border */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 1rem; /* p-4 */
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -4px rgba(0, 0, 0, 0.1); /* shadow-lg */
+}
+
+/* Estilos para la imagen de la receta */
+.recipe-image {
+    width: 100%; /* w-full */
+    height: 12rem; /* h-48 */
+    object-fit: cover; /* object-cover */
+    border-top-left-radius: 0.5rem; /* rounded-t-lg */
+    border-top-right-radius: 0.5rem; /* rounded-t-lg */
+}
+
+/* Estilos para el nombre de la receta */
+.recipe-name {
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600; /* font-semibold */
+    margin-top: 0.5rem; /* mt-2 */
+}
+
+/* Estilos para la descripción de la receta */
+.recipe-description {
+    color: #4b5563; /* text-gray-600 */
+}
+
+/* Estilos para el botón "View Recipe" */
+.view-recipe-button {
+    margin-top: 1rem; /* mt-4 */
+    background-color: #3b82f6; /* bg-blue-500 */
+    color: white; /* text-white */
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    border-radius: 0.375rem; /* rounded */
+    text-align: center; /* text-center */
+    display: block; /* Para que ocupe todo el ancho */
+}
+
+.view-recipe-button:hover {
+    background-color: #2563eb; /* hover:bg-blue-600 */
+}
