@@ -15,3 +15,12 @@
 | **Frontend**    | ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) |
 | **Data**       | ![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)                                                                 |
 | **Tools**| ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) |
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/4da940e9-fe06-47d3-b15a-d95e432d28c0)
+*Main screen*
+
+![image](https://github.com/user-attachments/assets/c64c7059-81f4-454c-bea4-066c01e3e82f)
+*Recipe*
+
+
